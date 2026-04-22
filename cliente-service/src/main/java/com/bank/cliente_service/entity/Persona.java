@@ -17,7 +17,7 @@ public class Persona {
     private String identificacion;
     private String telefono;
 
-    // Getters y Setters manuales
+
     public Long getId() {
         return id;
     }

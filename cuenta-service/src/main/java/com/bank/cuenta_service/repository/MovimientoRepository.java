@@ -7,7 +7,6 @@ import java.util.List;
 
 
 public interface MovimientoRepository extends JpaRepository<Movimiento, Long> {
-    // Correcto: accede a la propiedad 'cuenta' y dentro de ella a 'numero'
     List<Movimiento> findByCuentaNumero(Long numero);
 }
 

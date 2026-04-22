@@ -27,7 +27,7 @@ public class ClienteController {
 
     @PutMapping("/{id}")
     public Cliente actualizar(@PathVariable Long id, @RequestBody Cliente c) {
-        c.setId(id); // ahora sí existe porque lo hereda de Persona
+        c.setId(id);
         return repo.save(c);
     }
 
