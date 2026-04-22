@@ -3,6 +3,9 @@
 Este proyecto implementa un sistema bancario básico con dos microservicios (`cliente-service` y `cuenta-service`) y una base de datos MySQL.  
 Incluye pruebas unitarias, integración, colección de Postman y despliegue con Docker.
 
+## 📂 Github
+
+https://github.com/diegoa915/prueba-tecnica-banco
 ---
 
 ## 📂 Estructura del proyecto
